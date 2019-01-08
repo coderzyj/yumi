@@ -13,9 +13,9 @@ public class YumiApplication {
         SpringApplication.run(YumiApplication.class, args);
     }
 
-    @GetMapping(name = "/hello")
+    /*@GetMapping(name = "/hello")
     public String hello(){
         return "hello,zhang";
-    }
+    }*/
 }
 
