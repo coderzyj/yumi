@@ -13,7 +13,6 @@ import org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring4.view.ThymeleafViewResolver;
 
 /**
- * 版权声明：CopyRight (c) 2018 ucarinc. All Rights Reserved.
  *
  * @author : 张勇杰
  * @date : 2019/1/7 9:43

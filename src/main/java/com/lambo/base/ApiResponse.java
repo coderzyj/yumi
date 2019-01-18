@@ -3,7 +3,6 @@ package com.lambo.base;
 import lombok.Data;
 
 /**
- * 版权声明：CopyRight (c) 2018 ucarinc. All Rights Reserved.
  *
  * @author : 张勇杰
  * @date : 2019/1/7 15:44

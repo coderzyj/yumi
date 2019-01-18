@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * 版权声明：CopyRight (c) 2018 ucarinc. All Rights Reserved.
  *
  * @author : 张勇杰
  * @date : 2019/1/7 11:09

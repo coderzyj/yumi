@@ -6,7 +6,6 @@ import javax.persistence.*;
 import java.util.Date;
 
 /**
- * 版权声明：CopyRight (c) 2018 ucarinc. All Rights Reserved.
  *
  * @author : 张勇杰
  * @date : 2019/1/4 17:08

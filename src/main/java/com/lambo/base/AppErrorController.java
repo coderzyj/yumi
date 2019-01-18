@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
 /**
- * 版权声明：CopyRight (c) 2018 ucarinc. All Rights Reserved.
  *
  * @author : 张勇杰
  * @date : 2019/1/7 16:43
