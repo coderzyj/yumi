@@ -40,6 +40,7 @@ public class AppErrorController implements ErrorController {
     @RequestMapping(value = ERROR_PATH,produces = "text/html")
     public String errorPageHandler(HttpServletRequest request, HttpServletResponse response){
         int status = response.getStatus();
+        System.out.println("经过这里");
         switch (status){
             case 403:
                 return "403";

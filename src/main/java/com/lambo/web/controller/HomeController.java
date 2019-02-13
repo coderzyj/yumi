@@ -16,11 +16,13 @@ import org.springframework.web.servlet.ModelAndView;
  **/
 @Controller
 public class HomeController {
-    @GetMapping("/")
-    public String index(Model model){
+    @GetMapping(value = {"/","index"})
+    public ModelAndView index(Model model){
         model.addAttribute("name","dapao");
         ModelAndView mv = new ModelAndView();
-        return "index";
+        mv.setViewName("index");
+        mv.addObject("name","dapao");
+        return mv;
     }
 
     @GetMapping("/get")
@@ -44,7 +46,7 @@ public class HomeController {
         return "500";
     }
 
-    @GetMapping("/logout")
+    @GetMapping("/logout/page")
     public String logoutPage(){
         return "logout";
     }
